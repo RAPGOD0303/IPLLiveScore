@@ -3,6 +3,7 @@ import Hero from '../component/Hero';
 import HEader from './../component/HEader';
 import TeamStanding from '../component/TeamStanding';
 import StatSection from '../component/StatSection';
+import Footer from '../component/Footer';
 
 export default function HomePage() {
   return (
@@ -22,6 +23,10 @@ export default function HomePage() {
       <StatSection/>
       </div>
 
+
+      <div className='bg-opacity-90'>
+      <Footer/>
+      </div>
     </div>
     </div>
       </div>
